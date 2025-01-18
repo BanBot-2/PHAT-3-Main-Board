@@ -268,8 +268,8 @@
 		(uuid "339deb30-24ce-4f1e-9892-29d2775ded90")
 	)
 	(fp_rect
-		(start -7.62 -10.16)
-		(end 30.48 53.34)
+		(start -4.6 -7.62)
+		(end 27.94 49.92)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -400,7 +400,7 @@
 			)
 		)
 	)
-	(pad "1" thru_hole rect
+	(pad "1" thru_hole circle
 		(at 0 0)
 		(size 1.7 1.7)
 		(drill 1)
@@ -536,7 +536,7 @@
 		(remove_unused_layers no)
 		(uuid "45187b8e-d30b-4036-8321-c92d28faf49c")
 	)
-	(pad "18" thru_hole oval
+	(pad "18" thru_hole rect
 		(at 0 43.18)
 		(size 1.7 1.7)
 		(drill 1)
@@ -544,7 +544,7 @@
 		(remove_unused_layers no)
 		(uuid "96e67b98-7ab7-4e30-b63a-b3bf162244cc")
 	)
-	(pad "19" thru_hole oval
+	(pad "19" thru_hole rect
 		(at 24 43.18)
 		(size 1.7 1.7)
 		(drill 1)
@@ -680,7 +680,7 @@
 		(remove_unused_layers no)
 		(uuid "69d328d5-ece8-4493-85d6-80e75756b9ba")
 	)
-	(pad "36" thru_hole rect
+	(pad "36" thru_hole circle
 		(at 24 0)
 		(size 1.7 1.7)
 		(drill 1)

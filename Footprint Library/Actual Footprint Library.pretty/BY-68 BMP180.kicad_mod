@@ -5,8 +5,8 @@
 	(layer "F.Cu")
 	(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
 	(tags "Through hole pin header THT 1x04 2.54mm single row")
-	(property "Reference" "REF**"
-		(at 0 -2.33 0)
+	(property "Reference" "BY-68 BMP180"
+		(at 0 -2.794 0)
 		(layer "F.SilkS")
 		(uuid "d559e78f-9137-43bf-9f69-165532415fcf")
 		(effects
@@ -127,46 +127,6 @@
 		(layer "F.SilkS")
 		(uuid "31936b74-58c0-41b0-9174-96592b7c2da3")
 	)
-	(fp_line
-		(start -1.8 -1.8)
-		(end -1.8 9.4)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "c81c6ee0-4441-4de7-807f-c30b3d1aa088")
-	)
-	(fp_line
-		(start -1.8 9.4)
-		(end 1.8 9.4)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "9743eb14-e958-45a4-83eb-310dcdb26e62")
-	)
-	(fp_line
-		(start 1.8 -1.8)
-		(end -1.8 -1.8)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "eef21155-0819-4e22-84e8-f17b0bc291da")
-	)
-	(fp_line
-		(start 1.8 9.4)
-		(end 1.8 -1.8)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "22b486a5-f3c3-447d-83fc-e0bf37a5d122")
-	)
 	(fp_rect
 		(start -2.54 -2.54)
 		(end 16.46 10.46)
@@ -227,6 +187,58 @@
 		)
 		(layer "F.Fab")
 		(uuid "110fb385-fb0b-4fa5-817c-9563606ec082")
+	)
+	(fp_text user "SDA"
+		(at 2.032 8.382 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4602056d-c1b5-4eb1-9b13-7b2ef6589415")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "VIN"
+		(at 2.032 0.762 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "572e45ce-888c-4a43-990e-e014348867f0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "GND"
+		(at 2.032 3.302 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9f0b4f3c-6cb4-4aae-80a6-e9bd849e035b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "SCL"
+		(at 2.032 5.842 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f6c37caa-de4d-4e2e-be20-2965638ea3bc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 3.81 90)

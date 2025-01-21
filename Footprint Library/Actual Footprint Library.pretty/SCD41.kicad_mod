@@ -1,12 +1,12 @@
-(footprint "AHT21 I2C IIC"
+(footprint "SCD41"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
 	(tags "Through hole pin header THT 1x04 2.54mm single row")
-	(property "Reference" "AHT21 I2C IIC"
-		(at 0 -2.794 0)
+	(property "Reference" "SCD41"
+		(at 0 -3.048 0)
 		(layer "F.SilkS")
 		(uuid "d559e78f-9137-43bf-9f69-165532415fcf")
 		(effects
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "AHT21 I2C IIC"
+	(property "Value" "SCD41"
 		(at 0 9.95 0)
 		(layer "F.Fab")
 		(uuid "348f53c9-f22c-45ad-a1c8-50113d0805cb")
@@ -68,6 +68,26 @@
 	)
 	(attr through_hole)
 	(fp_line
+		(start -1.33 -1.33)
+		(end 0 -1.33)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "decb3ddc-c833-429d-8c0e-63b5aa24bff4")
+	)
+	(fp_line
+		(start -1.33 0)
+		(end -1.33 -1.33)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3842b227-6544-43a1-85fa-56835b085379")
+	)
+	(fp_line
 		(start -1.33 1.27)
 		(end -1.33 8.95)
 		(stroke
@@ -98,26 +118,6 @@
 		(uuid "48f5f3f1-daeb-4966-b655-9849658074ad")
 	)
 	(fp_line
-		(start 1.27 -1.27)
-		(end 0 -1.27)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "9d61d0ff-1e76-4f6d-8b65-54e41c86250b")
-	)
-	(fp_line
-		(start 1.27 0)
-		(end 1.27 -1.27)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "1d4e3833-a026-441b-8395-7e86d2e21352")
-	)
-	(fp_line
 		(start 1.33 1.27)
 		(end 1.33 8.95)
 		(stroke
@@ -128,15 +128,15 @@
 		(uuid "31936b74-58c0-41b0-9174-96592b7c2da3")
 	)
 	(fp_rect
-		(start -15.24 -2.54)
-		(end 2.54 10.16)
+		(start -2.54 -3.302)
+		(end 27.94 10.922)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(fill none)
 		(layer "F.CrtYd")
-		(uuid "732bea88-1368-4305-a461-35664a8562ab")
+		(uuid "4a2ebcac-a49f-405c-bd8d-aa461a5f40ac")
 	)
 	(fp_line
 		(start -1.27 -0.635)
@@ -188,56 +188,56 @@
 		(layer "F.Fab")
 		(uuid "110fb385-fb0b-4fa5-817c-9563606ec082")
 	)
-	(fp_text user "SCL"
-		(at -2.032 5.842 0)
+	(fp_text user "GND"
+		(at 2.032 0.762 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "267142ce-9396-43fa-b2c3-73ec269ceb66")
+		(uuid "286a5ac1-a01e-4a57-9abe-62850d8186fa")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 	)
-	(fp_text user "VIN"
-		(at -1.778 0.762 0)
+	(fp_text user "VDD"
+		(at 2.032 3.302 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "3d63d051-d494-4256-aa6c-fb396157a66e")
+		(uuid "74d5bad6-6e57-4597-a38c-4321044bdf8b")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 	)
 	(fp_text user "SDA"
-		(at -2.032 8.382 0)
+		(at 2.032 8.382 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "406dc893-3d2d-4dbf-ac5f-a75992150b96")
+		(uuid "c2531fe4-002b-462c-8e02-6d5387b2b7ac")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 	)
-	(fp_text user "GND"
-		(at -1.778 3.302 0)
+	(fp_text user "SCL"
+		(at 2.032 5.842 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "e55adcc9-b9f5-4062-aa02-8246596eb0e4")
+		(uuid "de1949fa-5912-4eee-ad5c-bbb9bc9ce7f1")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 	)
 	(fp_text user "${REFERENCE}"

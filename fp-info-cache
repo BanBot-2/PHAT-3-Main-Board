@@ -1,4 +1,11 @@
-24644269122900598
+24652957322446184
+Actual Footprint Library
+AHT21 I2C IIC
+Through hole straight pin header, 1x04, 2.54mm pitch, single row
+Through hole pin header THT 1x04 2.54mm single row
+0
+4
+4
 Actual Footprint Library
 BY-68 BMP180
 Through hole straight pin header, 1x04, 2.54mm pitch, single row
@@ -13,6 +20,34 @@ Through hole pin header THT 1x18 2.54mm single row
 0
 36
 36
+Actual Footprint Library
+GT-U7
+Through hole straight pin header, 1x05, 2.54mm pitch, single row
+Through hole pin header THT 1x05 2.54mm single row
+0
+5
+5
+Actual Footprint Library
+GY-521 MPU-6050
+Through hole straight pin header, 1x08, 2.54mm pitch, single row
+Through hole pin header THT 1x08 2.54mm single row
+0
+8
+8
+Actual Footprint Library
+LM2596
+Through hole straight pin header, 2x20, 2.54mm pitch, double rows
+Through hole pin header THT 2x20 2.54mm double row
+0
+4
+4
+Actual Footprint Library
+SCD41
+Through hole straight pin header, 1x04, 2.54mm pitch, single row
+Through hole pin header THT 1x04 2.54mm single row
+0
+4
+4
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)

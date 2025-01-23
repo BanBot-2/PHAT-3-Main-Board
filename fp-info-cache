@@ -1,13 +1,13 @@
-24652957322446184
+24652957692201529
 Actual Footprint Library
-AHT21 I2C IIC
+AHT21
 Through hole straight pin header, 1x04, 2.54mm pitch, single row
 Through hole pin header THT 1x04 2.54mm single row
 0
 4
 4
 Actual Footprint Library
-BY-68 BMP180
+BME280
 Through hole straight pin header, 1x04, 2.54mm pitch, single row
 Through hole pin header THT 1x04 2.54mm single row
 0

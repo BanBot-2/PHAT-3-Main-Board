@@ -5,7 +5,7 @@
 	(uuid "da389c8a-9ca2-41c4-a7eb-3ce46ba4333b")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Footprint Library:AHT21_I2C_IIC"
+		(symbol "Footprint Library:AHT21"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -17,7 +17,7 @@
 					)
 				)
 			)
-			(property "Value" "AHT21 I2C IIC"
+			(property "Value" "AHT21"
 				(at -11.43 -4.318 0)
 				(effects
 					(font
@@ -25,7 +25,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Actual Footprint Library:AHT21 I2C IIC"
+			(property "Footprint" "Actual Footprint Library:AHT21"
 				(at -0.762 -8.128 0)
 				(effects
 					(font
@@ -52,7 +52,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "AHT21_I2C_IIC_0_1"
+			(symbol "AHT21_0_1"
 				(rectangle
 					(start -2.54 10.16)
 					(end -21.59 -2.54)
@@ -65,7 +65,7 @@
 					)
 				)
 			)
-			(symbol "AHT21_I2C_IIC_1_1"
+			(symbol "AHT21_1_1"
 				(pin power_in line
 					(at 0 7.62 180)
 					(length 2.54)
@@ -122,6 +122,141 @@
 				)
 				(pin bidirectional line
 					(at 0 0 180)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Footprint Library:BME280"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BME280"
+				(at 11.43 -4.572 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Actual Footprint Library:BME280"
+				(at 1.524 -8.636 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BME280_0_1"
+				(rectangle
+					(start 2.54 10.16)
+					(end 20.32 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BME280_1_1"
+				(pin power_in line
+					(at 0 7.62 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 5.08 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 2.54 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 0 0)
 					(length 2.54)
 					(name "SDA"
 						(effects
@@ -1211,141 +1346,6 @@
 				)
 			)
 		)
-		(symbol "Footprint Library:GY-68_BMP180"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "BY-68 BMP180"
-				(at 11.43 -4.572 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Actual Footprint Library:BY-68 BMP180"
-				(at 1.524 -8.636 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GY-68_BMP180_0_1"
-				(rectangle
-					(start 2.54 10.16)
-					(end 20.32 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GY-68_BMP180_1_1"
-				(pin power_in line
-					(at 0 7.62 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 5.08 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 2.54 0)
-					(length 2.54)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 0 0)
-					(length 2.54)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Footprint Library:LM2596"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1697,80 +1697,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Footprint Library:AHT21_I2C_IIC")
-		(at 167.64 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3acd565a-2f87-4e04-a06c-44c9b1c54a16")
-		(property "Reference" "U3"
-			(at 155.575 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AHT21 I2C IIC"
-			(at 155.575 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Actual Footprint Library:AHT21 I2C IIC"
-			(at 166.878 76.708 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 167.64 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "46d5f897-091b-4b07-8eb8-ce0fc9b93d44")
-		)
-		(pin "2"
-			(uuid "d8475ab9-9431-475c-a0eb-a7d34599e4d3")
-		)
-		(pin "3"
-			(uuid "365e0007-f7d0-476f-bb19-3898be8fe6d3")
-		)
-		(pin "4"
-			(uuid "7d780f2e-650b-48b9-911c-151c9a1cfba2")
-		)
-		(instances
-			(project ""
-				(path "/da389c8a-9ca2-41c4-a7eb-3ce46ba4333b"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Footprint Library:GY-521_MPU-6050")
 		(at 137.16 125.73 0)
 		(unit 1)
@@ -1927,6 +1853,80 @@
 			(project ""
 				(path "/da389c8a-9ca2-41c4-a7eb-3ce46ba4333b"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Footprint Library:AHT21")
+		(at 167.64 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73312709-4c81-4a40-abfe-175ed6f71ffa")
+		(property "Reference" "U1"
+			(at 155.575 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AHT21"
+			(at 155.575 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Actual Footprint Library:AHT21"
+			(at 166.878 79.248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "6a59a2eb-2a4d-42b4-ab42-3783a8a9ed36")
+		)
+		(pin "2"
+			(uuid "d4fd37ff-b141-4a9e-b9d3-e0e9bbe2f810")
+		)
+		(pin "1"
+			(uuid "5dddaa3c-7b14-4966-9b75-4aa85cf6f359")
+		)
+		(pin "3"
+			(uuid "fdb536b1-558c-4898-8ef0-175787627404")
+		)
+		(instances
+			(project ""
+				(path "/da389c8a-9ca2-41c4-a7eb-3ce46ba4333b"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -2103,16 +2103,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Footprint Library:GY-68_BMP180")
-		(at 157.48 91.44 0)
+		(lib_id "Footprint Library:BME280")
+		(at 153.67 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "bb36b386-243f-477e-891e-d3fe2dff9411")
-		(property "Reference" "U1"
-			(at 167.386 76.708 0)
+		(fields_autoplaced yes)
+		(uuid "d4c149b3-8e40-4f0f-a63b-5ef562a2da20")
+		(property "Reference" "U3"
+			(at 175.26 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2120,8 +2121,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BY-68 BMP180"
-			(at 161.036 79.248 0)
+		(property "Value" "BME280"
+			(at 175.26 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2129,8 +2130,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Actual Footprint Library:BY-68 BMP180"
-			(at 159.004 100.076 0)
+		(property "Footprint" "Actual Footprint Library:BME280"
+			(at 155.194 101.346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2139,7 +2140,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 91.44 0)
+			(at 153.67 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2148,7 +2149,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 157.48 91.44 0)
+			(at 153.67 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2156,22 +2157,22 @@
 				(hide yes)
 			)
 		)
+		(pin "2"
+			(uuid "ec576047-67d6-401b-904d-19daba737416")
+		)
 		(pin "1"
-			(uuid "20c4dbb0-7271-46f8-a79c-2a1d75aa0d17")
+			(uuid "10acf798-0dd3-4c61-bc2e-d465617efdc2")
 		)
 		(pin "3"
-			(uuid "d884f16d-2b93-44d8-ac26-09f86025393d")
+			(uuid "c38b7706-fffd-44aa-9c17-69c673e97bd3")
 		)
 		(pin "4"
-			(uuid "66c0ea91-9b15-4a87-932b-70bf6784ec52")
-		)
-		(pin "2"
-			(uuid "a854b87c-7533-4ae0-bc5b-0589cfad2e17")
+			(uuid "2a7ce5e0-bf2b-4a3a-87fc-1799414917a0")
 		)
 		(instances
 			(project ""
 				(path "/da389c8a-9ca2-41c4-a7eb-3ce46ba4333b"
-					(reference "U1")
+					(reference "U3")
 					(unit 1)
 				)
 			)

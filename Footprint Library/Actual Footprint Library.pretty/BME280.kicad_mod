@@ -1,11 +1,11 @@
-(footprint "BY-68 BMP180"
+(footprint "BME280"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
 	(tags "Through hole pin header THT 1x04 2.54mm single row")
-	(property "Reference" "BY-68 BMP180"
+	(property "Reference" "BME280"
 		(at 0 -2.794 0)
 		(layer "F.SilkS")
 		(uuid "d559e78f-9137-43bf-9f69-165532415fcf")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "BY-68 BMP180"
+	(property "Value" "BME280"
 		(at 0 9.95 0)
 		(layer "F.Fab")
 		(uuid "348f53c9-f22c-45ad-a1c8-50113d0805cb")
@@ -128,15 +128,15 @@
 		(uuid "31936b74-58c0-41b0-9174-96592b7c2da3")
 	)
 	(fp_rect
-		(start -2.54 -2.54)
-		(end 16.46 10.46)
+		(start -1.778 -1.778)
+		(end 12.954 9.398)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(fill none)
 		(layer "F.CrtYd")
-		(uuid "dcf280a2-dc36-46f0-b00b-1a157402eca6")
+		(uuid "bc078f14-dc0f-4c38-b4cf-8e245634bf39")
 	)
 	(fp_line
 		(start -1.27 -0.635)

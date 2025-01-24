@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "BME280"
-		(at 0 9.95 0)
+		(at 0 10.668 0)
 		(layer "F.Fab")
 		(uuid "348f53c9-f22c-45ad-a1c8-50113d0805cb")
 		(effects
@@ -189,7 +189,7 @@
 		(uuid "110fb385-fb0b-4fa5-817c-9563606ec082")
 	)
 	(fp_text user "SDA"
-		(at -2.032 8.382 0)
+		(at -2.032 8.255 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "4602056d-c1b5-4eb1-9b13-7b2ef6589415")
@@ -202,7 +202,7 @@
 		)
 	)
 	(fp_text user "VIN"
-		(at -2.032 0.762 0)
+		(at -2.032 0.635 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "572e45ce-888c-4a43-990e-e014348867f0")
@@ -215,7 +215,7 @@
 		)
 	)
 	(fp_text user "GND"
-		(at -2.032 3.302 0)
+		(at -2.032 3.175 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "9f0b4f3c-6cb4-4aae-80a6-e9bd849e035b")
@@ -228,7 +228,7 @@
 		)
 	)
 	(fp_text user "SCL"
-		(at -2.032 5.842 0)
+		(at -2.032 5.715 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "f6c37caa-de4d-4e2e-be20-2965638ea3bc")

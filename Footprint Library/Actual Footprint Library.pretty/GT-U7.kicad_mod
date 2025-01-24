@@ -6,7 +6,7 @@
 	(descr "Through hole straight pin header, 1x05, 2.54mm pitch, single row")
 	(tags "Through hole pin header THT 1x05 2.54mm single row")
 	(property "Reference" "REF**"
-		(at 0.635 -2.33 0)
+		(at 0.635 14.478 0)
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "d518c7db-9a4d-4905-902c-7b6d95f659cb")
@@ -190,7 +190,7 @@
 		(uuid "dde86203-069d-47dc-8693-34fe614da099")
 	)
 	(fp_text user "RXD"
-		(at -2.032 5.842 0)
+		(at -2.032 5.715 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "01f3fcd9-3c64-46a0-b37b-f5f0c8459b68")
@@ -203,7 +203,7 @@
 		)
 	)
 	(fp_text user "PPS"
-		(at -2.032 0.762 0)
+		(at -2.032 0.635 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "03c44cf9-d30a-485b-b79d-0f2cb80779da")
@@ -216,7 +216,7 @@
 		)
 	)
 	(fp_text user "TXD"
-		(at -2.032 3.302 0)
+		(at -2.032 3.175 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "20657ccb-3b89-447e-a816-b0e1a3120a25")
@@ -229,7 +229,7 @@
 		)
 	)
 	(fp_text user "GND"
-		(at -2.032 8.382 0)
+		(at -2.032 8.255 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "4435d8bb-4b07-47ce-9769-c44a23d4bd82")
@@ -242,7 +242,7 @@
 		)
 	)
 	(fp_text user "VCC"
-		(at -2.032 10.922 0)
+		(at -2.032 10.795 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "94b7d2db-8390-43a1-aeeb-be0db6882587")

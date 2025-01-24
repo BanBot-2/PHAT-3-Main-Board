@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "GY-521 MPU-6050"
-		(at 0 20.11 0)
+		(at 0 20.447 0)
 		(layer "F.Fab")
 		(uuid "d4a9ac10-b1de-47d7-870b-64a03843df14")
 		(effects
@@ -189,7 +189,7 @@
 		(uuid "20a85b68-5a84-4f8b-a689-6efb0fedaac4")
 	)
 	(fp_text user "GND"
-		(at -2.032 3.302 0)
+		(at -2.032 3.175 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "18fb3982-b008-4aee-b202-cf1a323ab536")
@@ -202,7 +202,7 @@
 		)
 	)
 	(fp_text user "VCC"
-		(at -2.032 0.762 0)
+		(at -2.032 0.635 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "3468a49f-6712-47c9-957f-2b3ba01fd82d")
@@ -215,7 +215,7 @@
 		)
 	)
 	(fp_text user "XDA"
-		(at -2.032 10.922 0)
+		(at -2.032 10.795 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "349a68a9-2434-4e5e-95e9-e82771847b42")
@@ -228,7 +228,7 @@
 		)
 	)
 	(fp_text user "SCL"
-		(at -2.032 5.842 0)
+		(at -2.032 5.715 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "501464c9-cdf8-404f-8f14-30f6fe18a16e")
@@ -241,7 +241,7 @@
 		)
 	)
 	(fp_text user "INT"
-		(at -2.032 18.542 0)
+		(at -2.032 18.415 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "551ae7b9-3dd7-4217-9477-be5f7476690c")
@@ -254,7 +254,7 @@
 		)
 	)
 	(fp_text user "XCL"
-		(at -2.032 13.462 0)
+		(at -2.032 13.335 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "5bcbbe54-ec48-4f6c-9116-615340a4699f")
@@ -267,7 +267,7 @@
 		)
 	)
 	(fp_text user "SDA"
-		(at -2.032 8.382 0)
+		(at -2.032 8.255 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "6a2c4198-acbe-4391-87a1-161bbf594b50")
@@ -280,7 +280,7 @@
 		)
 	)
 	(fp_text user "ADO"
-		(at -2.032 16.002 0)
+		(at -2.032 15.875 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "9777b4f4-6c06-438d-84a6-76c7ead2aa98")

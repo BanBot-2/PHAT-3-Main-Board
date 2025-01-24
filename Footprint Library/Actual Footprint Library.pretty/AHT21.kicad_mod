@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "AHT21"
-		(at 0 9.95 0)
+		(at 0 10.541 0)
 		(layer "F.Fab")
 		(uuid "348f53c9-f22c-45ad-a1c8-50113d0805cb")
 		(effects
@@ -189,7 +189,7 @@
 		(uuid "110fb385-fb0b-4fa5-817c-9563606ec082")
 	)
 	(fp_text user "SCL"
-		(at 2.032 5.842 0)
+		(at 2.032 5.715 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "267142ce-9396-43fa-b2c3-73ec269ceb66")
@@ -202,7 +202,7 @@
 		)
 	)
 	(fp_text user "VIN"
-		(at 2.032 0.762 0)
+		(at 2.032 0.635 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "3d63d051-d494-4256-aa6c-fb396157a66e")
@@ -215,7 +215,7 @@
 		)
 	)
 	(fp_text user "SDA"
-		(at 2.032 8.382 0)
+		(at 2.032 8.255 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "406dc893-3d2d-4dbf-ac5f-a75992150b96")
@@ -228,7 +228,7 @@
 		)
 	)
 	(fp_text user "GND"
-		(at 2.032 3.302 0)
+		(at 2.032 3.175 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "e55adcc9-b9f5-4062-aa02-8246596eb0e4")

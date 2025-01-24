@@ -6,7 +6,7 @@
 	(descr "Through hole straight pin header, 1x18, 2.54mm pitch, single row")
 	(tags "Through hole pin header THT 1x18 2.54mm single row")
 	(property "Reference" "REF**"
-		(at 0 -2.33 0)
+		(at 12.446 -2.921 0)
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "615e1b55-c5fa-4f97-bc8e-6033fbeba743")
@@ -18,7 +18,7 @@
 		)
 	)
 	(property "Value" "ESP32-S3 Dual-core SX1262"
-		(at 11.938 45.974 0)
+		(at 11.938 48.133 0)
 		(layer "F.Fab")
 		(uuid "ccd376bb-bef9-4253-b04e-89cd8deffbe1")
 		(effects
@@ -231,7 +231,7 @@
 		(uuid "97763347-7e09-40ec-8bcd-6af863eb9fa5")
 	)
 	(fp_text user "Ve"
-		(at 26.162 36.322 0)
+		(at 26.162 36.195 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "2c18c9f3-3755-419d-854c-de5fcafcf751")
@@ -244,7 +244,7 @@
 		)
 	)
 	(fp_text user "GND"
-		(at 26.162 43.942 0)
+		(at 26.162 43.815 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "38b99e30-a808-43dd-890b-fb4b9271b33a")
@@ -257,7 +257,7 @@
 		)
 	)
 	(fp_text user "5V"
-		(at 26.162 41.402 0)
+		(at 26.162 41.275 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "391c5869-8aff-4412-b715-bd9a80ef8393")
@@ -270,7 +270,7 @@
 		)
 	)
 	(fp_text user "GND"
-		(at -2.032 43.942 0)
+		(at -2.032 43.815 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "3dae9881-af68-4388-a99e-11561306a72b")
@@ -283,7 +283,7 @@
 		)
 	)
 	(fp_text user "Ve"
-		(at 26.162 38.862 0)
+		(at 26.162 38.735 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "533ee4cc-cbfd-468e-acea-9d0e3480ec9f")
@@ -296,7 +296,7 @@
 		)
 	)
 	(fp_text user "3V3"
-		(at -2.032 38.862 0)
+		(at -2.032 38.735 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "816bb860-742f-4ae3-9c13-f4fee6ec2a4d")
@@ -309,7 +309,7 @@
 		)
 	)
 	(fp_text user "ESP32-S3 Dual-core SX1262"
-		(at 0.4064 46.5328 0)
+		(at 0.4064 46.736 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "8b3cba41-5b65-42bb-a5ba-b0cbdf4bbe7b")
@@ -322,7 +322,7 @@
 		)
 	)
 	(fp_text user "3V3"
-		(at -2.032 41.402 0)
+		(at -2.032 41.275 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "d426eedf-dc56-4de7-949a-61ecb117285f")

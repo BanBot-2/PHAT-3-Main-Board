@@ -1467,6 +1467,123 @@
 				)
 			)
 		)
+		(symbol "Footprint Library:Heater_Terminal_Block"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "P"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Heater Terminal Block"
+				(at 0 12.192 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
+				(at 0.254 9.652 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Heater_Terminal_Block_0_1"
+				(rectangle
+					(start -3.81 0)
+					(end 3.81 7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Heater_Terminal_Block_1_1"
+				(pin power_in line
+					(at -2.54 -2.54 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "PWR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -2.54 90)
+					(length 2.54)
+					(name "CONT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Footprint Library:LM2596"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1602,6 +1719,103 @@
 				)
 			)
 		)
+		(symbol "Footprint Library:Power_Terminal_Block"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "P"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Power Terminal Block"
+				(at 1.016 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+				(at 0 7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Power_Terminal_Block_1_1"
+				(rectangle
+					(start -1.27 5.08)
+					(end 3.81 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -2.54 90)
+					(length 2.54)
+					(name "PWR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Footprint Library:SCD41"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1728,6 +1942,177 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Footprint Library:SD_Card_Reader"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SD Card Reader"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Actual Footprint Library:SD Card Reader"
+				(at -0.254 -5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SD_Card_Reader_0_1"
+				(rectangle
+					(start -33.02 15.24)
+					(end -2.54 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SD_Card_Reader_1_1"
+				(pin bidirectional line
+					(at 0 12.7 180)
+					(length 2.54)
+					(name "CS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 10.16 180)
+					(length 2.54)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 7.62 180)
+					(length 2.54)
+					(name "MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 5.08 180)
+					(length 2.54)
+					(name "MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 2.54 180)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 0 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1891,6 +2276,96 @@
 			)
 		)
 	)
+	(wire
+		(pts
+			(xy 99.06 107.95) (xy 99.06 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ce908ae-8f01-4482-9cab-ef2de1f99456")
+	)
+	(wire
+		(pts
+			(xy 63.5 115.57) (xy 95.25 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "600c14e1-2819-4c3e-a208-6af672e3c869")
+	)
+	(wire
+		(pts
+			(xy 26.67 96.52) (xy 26.67 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74a0726d-059c-4506-b0a8-e69650843c01")
+	)
+	(wire
+		(pts
+			(xy 29.21 107.95) (xy 40.64 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bfb4ecc-4414-45df-a11e-5725757c77f4")
+	)
+	(wire
+		(pts
+			(xy 26.67 115.57) (xy 40.64 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d1a7d4f-2f16-490c-8d10-0790232aae05")
+	)
+	(wire
+		(pts
+			(xy 29.21 96.52) (xy 29.21 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab2d1239-e48d-4ac6-a26e-a681d45ffe06")
+	)
+	(wire
+		(pts
+			(xy 99.06 101.6) (xy 95.25 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1c3ea4e-0fbd-430e-81ba-0fa54587a54d")
+	)
+	(wire
+		(pts
+			(xy 95.25 115.57) (xy 95.25 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6b2e25b-1a6d-450a-8ab7-af14a7568657")
+	)
+	(wire
+		(pts
+			(xy 63.5 107.95) (xy 99.06 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d09df4d5-c653-4206-8d6c-d8a9b40f342c")
+	)
 	(symbol
 		(lib_id "Footprint Library:GT-7U")
 		(at 109.22 124.46 0)
@@ -1965,6 +2440,74 @@
 			(project ""
 				(path "/da389c8a-9ca2-41c4-a7eb-3ce46ba4333b"
 					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 113.03 144.78 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09095f60-14d9-4fa5-8b05-12591801c959")
+		(property "Reference" "R2"
+			(at 113.03 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 113.03 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 113.03 143.002 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 113.03 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c89846ef-1bfe-456c-af00-71acf3009f36")
+		)
+		(pin "1"
+			(uuid "eb165602-61bd-422c-9055-e645e1e641b6")
+		)
+		(instances
+			(project "PHAT-3 Main Board"
+				(path "/da389c8a-9ca2-41c4-a7eb-3ce46ba4333b"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -2139,7 +2682,7 @@
 	)
 	(symbol
 		(lib_id "Footprint Library:LM2596")
-		(at 116.84 96.52 0)
+		(at 43.18 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2148,7 +2691,7 @@
 		(fields_autoplaced yes)
 		(uuid "615b928f-320d-48d8-a322-5868cbf72c24")
 		(property "Reference" "U5"
-			(at 125.73 81.28 0)
+			(at 52.07 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2156,7 +2699,7 @@
 			)
 		)
 		(property "Value" "LM2596"
-			(at 125.73 83.82 0)
+			(at 52.07 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2164,7 +2707,7 @@
 			)
 		)
 		(property "Footprint" "Actual Footprint Library:LM2596"
-			(at 117.094 101.092 0)
+			(at 43.434 120.142 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2173,7 +2716,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 96.52 0)
+			(at 43.18 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2182,7 +2725,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.84 96.52 0)
+			(at 43.18 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2206,6 +2749,74 @@
 			(project ""
 				(path "/da389c8a-9ca2-41c4-a7eb-3ce46ba4333b"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 139.7 140.97 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64f963ad-5574-4846-bcf5-2e55e5668bd6")
+		(property "Reference" "R3"
+			(at 139.7 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 139.7 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 139.7 139.192 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 139.7 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6075e0f7-d03d-44a8-9a73-ca7a4d722243")
+		)
+		(pin "1"
+			(uuid "57101312-f667-4ab9-8702-c8bc9733540d")
+		)
+		(instances
+			(project "PHAT-3 Main Board"
+				(path "/da389c8a-9ca2-41c4-a7eb-3ce46ba4333b"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -2280,6 +2891,156 @@
 			(project ""
 				(path "/da389c8a-9ca2-41c4-a7eb-3ce46ba4333b"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Footprint Library:Power_Terminal_Block")
+		(at 26.67 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7495e9fd-255b-4c47-8f2d-cb7e14e23b78")
+		(property "Reference" "P1"
+			(at 31.75 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Power Terminal Block"
+			(at 31.75 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+			(at 26.67 86.868 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1dc49de2-3f67-4251-89db-6c25bf4a497d")
+		)
+		(pin "1"
+			(uuid "2c45807c-510c-42aa-ad32-ac4f43d42816")
+		)
+		(instances
+			(project ""
+				(path "/da389c8a-9ca2-41c4-a7eb-3ce46ba4333b"
+					(reference "P1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Footprint Library:SD_Card_Reader")
+		(at 142.24 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7bb263b0-b097-4325-ac0f-20ea446f861c")
+		(property "Reference" "U9"
+			(at 124.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SD Card Reader"
+			(at 124.46 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Actual Footprint Library:SD Card Reader"
+			(at 141.986 102.108 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "53b9a653-1de9-4a5e-a0ea-bb839319fe5a")
+		)
+		(pin "3"
+			(uuid "e45eb84d-1f2c-423c-a38f-db67ece93e5c")
+		)
+		(pin "4"
+			(uuid "60e2e265-84c9-40da-a540-c5eb741a03ee")
+		)
+		(pin "5"
+			(uuid "2b0ff817-ca74-4196-a0fa-d5d901262e3a")
+		)
+		(pin "1"
+			(uuid "c24af66b-fc3f-4919-b8bf-5c7870fb6cf7")
+		)
+		(pin "6"
+			(uuid "795cb78b-b698-4298-b036-99ff17bb50be")
+		)
+		(instances
+			(project ""
+				(path "/da389c8a-9ca2-41c4-a7eb-3ce46ba4333b"
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -2456,6 +3217,217 @@
 		)
 	)
 	(symbol
+		(lib_id "Footprint Library:Power_Terminal_Block")
+		(at 186.69 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "867164fd-18d5-4b3d-ab0f-ba9c151f5b50")
+		(property "Reference" "P3"
+			(at 191.77 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Power Terminal Block"
+			(at 191.77 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+			(at 186.69 113.538 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "130a8934-915b-4bb7-be05-adad57cb0a4e")
+		)
+		(pin "1"
+			(uuid "93fc52cd-0d42-406d-9c62-88fb3de31838")
+		)
+		(instances
+			(project "PHAT-3 Main Board"
+				(path "/da389c8a-9ca2-41c4-a7eb-3ce46ba4333b"
+					(reference "P3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Footprint Library:Heater_Terminal_Block")
+		(at 184.15 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba1a600f-ab7e-45ab-9ad1-080d9fa70871")
+		(property "Reference" "P4"
+			(at 189.23 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Heater Terminal Block"
+			(at 189.23 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
+			(at 184.404 98.298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c47f8878-6557-45b3-96f3-a6085ce55cb5")
+		)
+		(pin "2"
+			(uuid "c0898228-1a63-4844-8694-13d65a4142d8")
+		)
+		(pin "3"
+			(uuid "8d9d6f5e-b043-4460-8eca-5347f0b8a176")
+		)
+		(instances
+			(project ""
+				(path "/da389c8a-9ca2-41c4-a7eb-3ce46ba4333b"
+					(reference "P4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 124.46 152.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bfadf474-bbe4-4139-aa03-b28c24e270fa")
+		(property "Reference" "R4"
+			(at 124.46 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 124.46 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 124.46 150.622 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 124.46 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1956d8d5-28b2-4154-b579-463fa97f17c3")
+		)
+		(pin "1"
+			(uuid "31296ab9-f7a5-4fb1-ac5a-84bf9407f338")
+		)
+		(instances
+			(project "PHAT-3 Main Board"
+				(path "/da389c8a-9ca2-41c4-a7eb-3ce46ba4333b"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Footprint Library:BME280")
 		(at 153.67 92.71 0)
 		(unit 1)
@@ -2602,6 +3574,76 @@
 			(project ""
 				(path "/da389c8a-9ca2-41c4-a7eb-3ce46ba4333b"
 					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Footprint Library:Power_Terminal_Block")
+		(at 172.72 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8a90ab9-6eb4-4659-be3e-ab2eebc73c45")
+		(property "Reference" "P2"
+			(at 177.8 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Power Terminal Block"
+			(at 177.8 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+			(at 172.72 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e68bd3f2-5765-40e1-b513-3898cc76e189")
+		)
+		(pin "1"
+			(uuid "b2e6cd25-4cfc-4db4-b758-ddb20809ddd2")
+		)
+		(instances
+			(project "PHAT-3 Main Board"
+				(path "/da389c8a-9ca2-41c4-a7eb-3ce46ba4333b"
+					(reference "P2")
 					(unit 1)
 				)
 			)

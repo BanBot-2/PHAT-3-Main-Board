@@ -1,4 +1,4 @@
-24654697156245709
+24656435358455005
 Actual Footprint Library
 AHT21
 Through hole straight pin header, 1x04, 2.54mm pitch, single row
@@ -48,6 +48,13 @@ Through hole pin header THT 1x04 2.54mm single row
 0
 4
 4
+Actual Footprint Library
+SD Card Reader
+Through hole straight pin header, 1x06, 2.54mm pitch, single row
+Through hole pin header THT 1x06 2.54mm single row
+0
+6
+6
 Actual Footprint Library
 uCAM-III
 Through hole straight pin header, 1x05, 2.54mm pitch, single row

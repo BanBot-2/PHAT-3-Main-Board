@@ -348,7 +348,7 @@
 			(pin bidirectional line
 				(at 0 20.32 0)
 				(length 2.54)
-				(name "DATA"
+				(name "U2RXD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -366,7 +366,7 @@
 			(pin bidirectional line
 				(at 0 17.78 0)
 				(length 2.54)
-				(name "DATA"
+				(name "U1TXD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -384,7 +384,7 @@
 			(pin bidirectional line
 				(at 0 15.24 0)
 				(length 2.54)
-				(name "DATA"
+				(name "U1RXD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -402,7 +402,7 @@
 			(pin bidirectional line
 				(at 0 12.7 0)
 				(length 2.54)
-				(name "DATA"
+				(name "SCL"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -420,7 +420,7 @@
 			(pin bidirectional line
 				(at 0 10.16 0)
 				(length 2.54)
-				(name "DATA"
+				(name "SDA"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -438,7 +438,7 @@
 			(pin bidirectional line
 				(at 0 7.62 0)
 				(length 2.54)
-				(name "DATA"
+				(name "ADC_CTRL"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -453,7 +453,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 0 5.08 0)
 				(length 2.54)
 				(name "3V3"
@@ -471,7 +471,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 0 2.54 0)
 				(length 2.54)
 				(name "3V3"
@@ -561,7 +561,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 24.13 5.08 180)
 				(length 2.54)
 				(name "Ve"
@@ -579,7 +579,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 24.13 7.62 180)
 				(length 2.54)
 				(name "Ve"
@@ -597,10 +597,10 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin bidirectional line
 				(at 24.13 10.16 180)
 				(length 2.54)
-				(name "DATA"
+				(name "U0RXD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -615,10 +615,10 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin bidirectional line
 				(at 24.13 12.7 180)
 				(length 2.54)
-				(name "DATA"
+				(name "U0TXD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -633,7 +633,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin bidirectional line
 				(at 24.13 15.24 180)
 				(length 2.54)
 				(name "DATA"
@@ -651,7 +651,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin bidirectional line
 				(at 24.13 17.78 180)
 				(length 2.54)
 				(name "DATA"
@@ -669,7 +669,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin bidirectional line
 				(at 24.13 20.32 180)
 				(length 2.54)
 				(name "DATA"
@@ -687,10 +687,10 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin bidirectional line
 				(at 24.13 22.86 180)
 				(length 2.54)
-				(name "DATA"
+				(name "HTR"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -705,10 +705,10 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin bidirectional line
 				(at 24.13 25.4 180)
 				(length 2.54)
-				(name "DATA"
+				(name "CS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -741,10 +741,10 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin bidirectional line
 				(at 24.13 27.94 180)
 				(length 2.54)
-				(name "DATA"
+				(name "SCK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -759,10 +759,10 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin bidirectional line
 				(at 24.13 30.48 180)
 				(length 2.54)
-				(name "DATA"
+				(name "MOSI"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -777,10 +777,10 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin bidirectional line
 				(at 24.13 33.02 180)
 				(length 2.54)
-				(name "DATA"
+				(name "MISO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -795,7 +795,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin bidirectional line
 				(at 24.13 35.56 180)
 				(length 2.54)
 				(name "DATA"
@@ -813,7 +813,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin bidirectional line
 				(at 24.13 38.1 180)
 				(length 2.54)
 				(name "DATA"
@@ -831,7 +831,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin bidirectional line
 				(at 24.13 40.64 180)
 				(length 2.54)
 				(name "DATA"
@@ -849,7 +849,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin bidirectional line
 				(at 24.13 43.18 180)
 				(length 2.54)
 				(name "DATA"
@@ -960,7 +960,7 @@
 			(pin bidirectional line
 				(at 0 22.86 0)
 				(length 2.54)
-				(name "DATA"
+				(name "U2TXD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1522,8 +1522,7 @@
 					(type default)
 				)
 				(fill
-					(type color)
-					(color 255 255 194 1)
+					(type background)
 				)
 			)
 			(pin bidirectional line

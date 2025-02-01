@@ -191,11 +191,50 @@
 		(layer "F.Fab")
 		(uuid "efe97fbb-004b-4234-a5a5-4edefe6c218c")
 	)
+	(fp_text user "U1TXD"
+		(at -2.032 20.955 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "15e6161b-d39d-4bbe-9719-8d4ef31878e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify right bottom)
+		)
+	)
 	(fp_text user "Ve"
 		(at 24.892 36.195 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "2c18c9f3-3755-419d-854c-de5fcafcf751")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "U2RXD"
+		(at -2.032 23.495 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2c80dc80-83ce-46c7-aefe-73331faefad2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify right bottom)
+		)
+	)
+	(fp_text user "HTR"
+		(at 24.765 20.955 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "349fc119-b816-4433-a83a-7f69bf26daea")
 		(effects
 			(font
 				(size 1 1)
@@ -230,6 +269,19 @@
 			(justify left bottom)
 		)
 	)
+	(fp_text user "U0RXD"
+		(at 24.765 33.655 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3c89b315-f252-46e8-a273-ab8420222b20")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(fp_text user "GND"
 		(at -2.032 43.815 0)
 		(unlocked yes)
@@ -243,6 +295,19 @@
 			(justify right bottom)
 		)
 	)
+	(fp_text user "MISO"
+		(at 24.765 10.795 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3f6be4cc-2a6b-428e-af1d-a7fa57fdd544")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(fp_text user "Ve"
 		(at 24.892 38.735 0)
 		(unlocked yes)
@@ -254,6 +319,32 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
+		)
+	)
+	(fp_text user "U1TXD"
+		(at -2.032 26.035 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "711c2db0-9ad9-4ab2-84ed-c6235ca7d6f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify right bottom)
+		)
+	)
+	(fp_text user "U1RXD"
+		(at -2.032 28.575 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "76ea7c83-cd41-42dd-be06-81b1a8e9a956")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify right bottom)
 		)
 	)
 	(fp_text user "3V3"
@@ -282,6 +373,45 @@
 			(justify left bottom)
 		)
 	)
+	(fp_text user "SCK"
+		(at 24.765 15.875 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ac69dbdd-4eaa-4828-9b34-41107c2b7e2f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "SDA"
+		(at -2.032 33.655 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c39ba598-c1bb-46b3-bb0f-3cbbe3667c8e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify right bottom)
+		)
+	)
+	(fp_text user "MOSI"
+		(at 24.765 13.335 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "cc8ee778-4a8d-4d78-aeab-2286defd0c24")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(fp_text user "3V3"
 		(at -2.032 41.275 0)
 		(unlocked yes)
@@ -293,6 +423,58 @@
 				(thickness 0.15)
 			)
 			(justify right bottom)
+		)
+	)
+	(fp_text user "SCL"
+		(at -2.032 31.115 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "dbd9444b-5459-4d32-9cf4-24941fd7ccb3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify right bottom)
+		)
+	)
+	(fp_text user "ADC CTRL"
+		(at -2.159 36.195 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "dd65b039-3b22-4bc9-9895-9d715dfc084c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify right bottom)
+		)
+	)
+	(fp_text user "U0TXD"
+		(at 24.765 31.115 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ed837f94-3c1a-46b2-9530-cc5f37e71e45")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "CS"
+		(at 24.765 18.415 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f4c14364-3d04-4fc3-a903-c6d3f57df4d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
 		)
 	)
 	(pad "1" thru_hole circle

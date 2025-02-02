@@ -1,13 +1,6 @@
-24658173664632055
+24658174658788528
 Actual Footprint Library
 AHT21
-Through hole straight pin header, 1x04, 2.54mm pitch, single row
-Through hole pin header THT 1x04 2.54mm single row
-0
-4
-4
-Actual Footprint Library
-BME280
 Through hole straight pin header, 1x04, 2.54mm pitch, single row
 Through hole pin header THT 1x04 2.54mm single row
 0
@@ -27,6 +20,13 @@ Through hole pin header THT 1x05 2.54mm single row
 0
 5
 5
+Actual Footprint Library
+GY-68 BMP180
+Through hole straight pin header, 1x04, 2.54mm pitch, single row
+Through hole pin header THT 1x04 2.54mm single row
+0
+4
+4
 Actual Footprint Library
 GY-521 MPU-6050
 Through hole straight pin header, 1x08, 2.54mm pitch, single row

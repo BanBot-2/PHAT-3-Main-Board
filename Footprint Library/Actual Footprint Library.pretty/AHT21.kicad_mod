@@ -6,7 +6,7 @@
 	(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
 	(tags "Through hole pin header THT 1x04 2.54mm single row")
 	(property "Reference" "AHT21"
-		(at 0 -2.794 0)
+		(at -0.762 -2.667 0)
 		(layer "F.SilkS")
 		(uuid "d559e78f-9137-43bf-9f69-165532415fcf")
 		(effects
@@ -150,7 +150,7 @@
 		(uuid "b1984640-c9e2-4912-9d66-bfbc3259e3f1")
 	)
 	(fp_text user "SCL"
-		(at 2.032 5.715 0)
+		(at -2.032 5.715 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "267142ce-9396-43fa-b2c3-73ec269ceb66")
@@ -159,11 +159,11 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 	)
 	(fp_text user "VIN"
-		(at 2.032 0.635 0)
+		(at -2.032 0.635 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "3d63d051-d494-4256-aa6c-fb396157a66e")
@@ -172,11 +172,11 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 	)
 	(fp_text user "SDA"
-		(at 2.032 8.255 0)
+		(at -2.032 8.255 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "406dc893-3d2d-4dbf-ac5f-a75992150b96")
@@ -185,11 +185,11 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 	)
 	(fp_text user "GND"
-		(at 2.032 3.175 0)
+		(at -2.032 3.175 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "e55adcc9-b9f5-4062-aa02-8246596eb0e4")
@@ -198,7 +198,7 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 	)
 	(pad "1" thru_hole rect

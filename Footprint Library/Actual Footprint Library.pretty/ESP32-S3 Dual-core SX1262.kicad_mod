@@ -269,19 +269,6 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "U0RXD"
-		(at 24.765 33.655 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "3c89b315-f252-46e8-a273-ab8420222b20")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
 	(fp_text user "GND"
 		(at -2.032 43.815 0)
 		(unlocked yes)
@@ -436,32 +423,6 @@
 				(thickness 0.15)
 			)
 			(justify right bottom)
-		)
-	)
-	(fp_text user "ADC CTRL"
-		(at -2.159 36.195 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "dd65b039-3b22-4bc9-9895-9d715dfc084c")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify right bottom)
-		)
-	)
-	(fp_text user "U0TXD"
-		(at 24.765 31.115 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "ed837f94-3c1a-46b2-9530-cc5f37e71e45")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
 		)
 	)
 	(fp_text user "CS"

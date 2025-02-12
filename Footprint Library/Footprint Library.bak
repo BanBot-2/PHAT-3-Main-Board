@@ -197,7 +197,7 @@
 			(pin bidirectional line
 				(at 0 43.18 0)
 				(length 2.54)
-				(name "DATA"
+				(name "U2TXD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -215,7 +215,7 @@
 			(pin bidirectional line
 				(at 0 20.32 0)
 				(length 2.54)
-				(name "U2RXD"
+				(name "U1RXD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -233,7 +233,7 @@
 			(pin bidirectional line
 				(at 0 17.78 0)
 				(length 2.54)
-				(name "U1TXD"
+				(name "SCL"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -251,7 +251,7 @@
 			(pin bidirectional line
 				(at 0 15.24 0)
 				(length 2.54)
-				(name "U1RXD"
+				(name "SDA"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -269,7 +269,7 @@
 			(pin bidirectional line
 				(at 0 12.7 0)
 				(length 2.54)
-				(name "SCL"
+				(name "DATA"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -287,7 +287,7 @@
 			(pin bidirectional line
 				(at 0 10.16 0)
 				(length 2.54)
-				(name "SDA"
+				(name "DATA"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -395,7 +395,7 @@
 			(pin bidirectional line
 				(at 0 40.64 0)
 				(length 2.54)
-				(name "DATA"
+				(name "U2RXD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -575,7 +575,7 @@
 			(pin bidirectional line
 				(at 24.13 25.4 180)
 				(length 2.54)
-				(name "CS"
+				(name "MISO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -611,7 +611,7 @@
 			(pin bidirectional line
 				(at 24.13 27.94 180)
 				(length 2.54)
-				(name "SCK"
+				(name "CLK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -647,7 +647,7 @@
 			(pin bidirectional line
 				(at 24.13 33.02 180)
 				(length 2.54)
-				(name "MISO"
+				(name "CS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -827,7 +827,7 @@
 			(pin bidirectional line
 				(at 0 22.86 0)
 				(length 2.54)
-				(name "U2TXD"
+				(name "U1TXD"
 					(effects
 						(font
 							(size 1.27 1.27)

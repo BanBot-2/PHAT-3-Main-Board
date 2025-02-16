@@ -10997,6 +10997,19 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "PHAT-3"
+		(at 109 118 -90)
+		(layer "B.SilkS" knockout)
+		(uuid "b22d9013-6e0e-45ce-9d5b-a41ac13064ea")
+		(effects
+			(font
+				(size 10 10)
+				(thickness 2.5)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "+5V"
 		(at 189.5 117.5 270)
 		(layer "B.SilkS")
@@ -11023,8 +11036,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "Designed by Yehoshua Luna with kind help from Marcin Anforowicz and Evan Gubarev.\n\nhttps://github.com/UWCubeSat/PHAT-3-Main-Board"
-		(at 143.383 93.299 -90)
+	(gr_text "Designed by Yehoshua Luna with kind help from Marcin Anforowicz,\nEvan Gubarev, Shriya Tiku, and David Magidson.\n\nFeb. 2025\n\nhttps://github.com/UWCubeSat/PHAT-3-Main-Board"
+		(at 139.5 93.5 270)
 		(layer "B.SilkS")
 		(uuid "e93b695b-c0df-4a18-a24f-9ce4bc9d7186")
 		(effects

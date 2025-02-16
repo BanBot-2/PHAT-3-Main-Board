@@ -135,7 +135,7 @@
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -494,7 +494,24 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "POWER",
+        "pattern": "*V"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "*PWR*"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "*D1*"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "*GND*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
